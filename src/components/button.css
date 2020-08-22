@@ -1,0 +1,27 @@
+.btn-cadastro {
+  background: #7159c1 !important;
+  color: white !important;
+  border: none !important;
+  outline: none;
+}
+button.btn-cadastro:hover {
+  background: rgba(113, 89, 193, 0.8)!important;
+}
+button.btn-cadastro:focus {
+  box-shadow: none !important;
+}
+
+.btn-outline-cadastro {
+  background: none !important;
+  color: #7159c1 !important;
+  border: 1px solid #7159c1 !important;
+  outline: none;
+  margin-left: 35%;
+}
+button.btn-outline-cadastro:hover {
+  background: rgba(113, 89, 193, 0.8)!important;
+  color: #fff !important;
+}
+button.btn-outline-cadastro:focus {
+  box-shadow: none !important;
+}
