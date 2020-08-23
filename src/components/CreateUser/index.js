@@ -16,7 +16,7 @@ function CreateUser({ setUsers, users, handleClose }) {
     initialValues: {
       nome: '',
       sobrenome: '',
-      idade: '',
+      idade: 0,
       tecnologias: 0,
       escolaridade: '',
     },
@@ -31,6 +31,7 @@ function CreateUser({ setUsers, users, handleClose }) {
       try {
         setUsers([...users, values]);
         handleClose();
+        console.log(values);
         toast.success('Usuário Cadastrado com sucesso!!');
       } catch (error) {
         toast.error(`Falha no cadastro de usuário!\nerror: ${error}`);

@@ -54,7 +54,7 @@ function Tecnologias({ formik }) {
           </thead>
           <tbody>
             {techs.map((tech) => (
-              <tr>
+              <tr key={tech}>
                 <td>{tech}</td>
               </tr>
             ))}

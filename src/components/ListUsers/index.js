@@ -34,10 +34,10 @@ function ListUsers() {
           </thead>
           <tbody>
             {users.map((p) => (
-              <tr>
+              <tr key={p.nome + p.tecnologias}>
                 <td>{p.nome}</td>
                 <td>{p.sobrenome}</td>
-                <td>{p.range}</td>
+                <td>{p.idade}</td>
                 <td>{p.escolaridade}</td>
                 <td>{p.tecnologias}</td>
               </tr>
